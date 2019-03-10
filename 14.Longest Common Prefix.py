@@ -39,12 +39,13 @@ class Solution:
         prefix = tmp
     return prefix
 
+
 if __name__ == '__main__':
-    s = Solution()
-    # print(s.longestCommonPrefix(["flower","flow","flight"]))
-    # print(s.longestCommonPrefix([]))
-    # print(s.longestCommonPrefix(["a"]))
-    # print(s.longestCommonPrefix(["a","b","c"]))
-    # print(s.longestCommonPrefix(["ab","a","c"]))
-    # print(s.longestCommonPrefix(["dog","racecar","car"]))
-    print(s.longestCommonPrefix(["c","acc","ccc"]))
+  s = Solution()
+  print(s.longestCommonPrefix(["flower","flow","flight"]))
+  print(s.longestCommonPrefix([]))
+  print(s.longestCommonPrefix(["a"]))
+  print(s.longestCommonPrefix(["a","b","c"]))
+  print(s.longestCommonPrefix(["ab","a","c"]))
+  print(s.longestCommonPrefix(["dog","racecar","car"]))
+  print(s.longestCommonPrefix(["c","acc","ccc"]))

@@ -18,9 +18,9 @@ class Solution:
 
 
 if __name__ == '__main__':
-    s = Solution()
-    print(s.romanToInt("III"))
-    print(s.romanToInt("IV"))
-    print(s.romanToInt("IX"))
-    print(s.romanToInt("LVIII"))
-    print(s.romanToInt("MCMXCIV"))
+  s = Solution()
+  print(s.romanToInt("III"))
+  print(s.romanToInt("IV"))
+  print(s.romanToInt("IX"))
+  print(s.romanToInt("LVIII"))
+  print(s.romanToInt("MCMXCIV"))
